@@ -1,18 +1,24 @@
-## Getting Started
+# 🃏 BlackJack Game (Java Swing)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A GUI-based version of the popular card game **BlackJack**, where the player competes against a computer dealer to reach 21 without busting.
 
-## Folder Structure
+## 🎯 Features
+- Hit and Stand game flow
+- Card drawing, shuffling, and score calculation
+- Dealer logic to play automatically
+- Visual card updates with Swing components
 
-The workspace contains two folders by default, where:
+## 🧠 Concepts Used
+- Object-oriented game structure (Player, Dealer, Card classes)
+- Event-driven interaction with `ActionListener`
+- Conditional logic to determine win/loss/draw outcomes
+- Card shuffling logic and dynamic UI updates
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠️ Tech Stack
+- Java Swing (`JFrame`, `JButton`, `JLabel`)
+- Layout management (`GridLayout`, `FlowLayout`)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🚀 How to Run
+```bash
+javac BlackJack.java
+java BlackJack
